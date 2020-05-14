@@ -1,0 +1,19 @@
+{
+  "name": "wdio-custom-service",
+  "version": "1.0.0",
+  "description": "An example project to demonstrate the onPrepare hook not stopping executing upon failure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenEsser/wdio-custom-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenEsser/wdio-custom-service/issues"
+  },
+  "homepage": "https://github.com/StephenEsser/wdio-custom-service#readme"
+}
