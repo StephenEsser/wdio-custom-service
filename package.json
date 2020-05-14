@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/StephenEsser/wdio-custom-service/issues"
   },
-  "homepage": "https://github.com/StephenEsser/wdio-custom-service#readme"
+  "homepage": "https://github.com/StephenEsser/wdio-custom-service#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.11",
+    "@wdio/local-runner": "^6.1.11",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
 }
