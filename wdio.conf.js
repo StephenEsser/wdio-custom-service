@@ -1,4 +1,6 @@
 const CustomService = require('./lib/wdio-example-service');
+const CustomService2 = require('./lib/wdio-example-service2');
+const CustomService3 = require('./lib/wdio-example-service3');
 
 exports.config = {
   //
@@ -107,7 +109,7 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ['chromedriver', [CustomService]],
+  services: ['chromedriver', [CustomService], [CustomService2], [CustomService3]],
 
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
